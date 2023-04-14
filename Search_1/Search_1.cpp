@@ -56,5 +56,7 @@ void LinearSearch()
 			cout << "\n" << item << " not found in the array\n";
 		cout << "\nNumber of the comparisons : " << comparisons << endl;
  
-	}
+		cout << "\nCountinue search (y/n): ";
+		cin >> ch;
+	} while ((ch == 'y') || (ch == 'Y'));
 }
