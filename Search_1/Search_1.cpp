@@ -5,8 +5,10 @@ int arr[20]; // Array to be searched
 int n; // Number of elements in the array 
 int i; // Number of array element 
 
-void input() {
-	while (true) {
+void input() 
+{
+	while (true) 
+	{
 		cout << "Enter the number of elements in the array : ";
 		cin >> n;
 		if ((n > 0) && (n <= 20))
@@ -28,4 +30,17 @@ void input() {
 
 
 
-void LinearSearch() {}
+void LinearSearch() 
+{
+	char ch;
+	int comparisons; // Number of comparisons
+
+	do
+	{
+		// Accept the number to be searched
+		cout << "\nEnter the element you want to search : "; // Langkah 1
+		int item;
+		cin >> item;
+		
+	}
+}
